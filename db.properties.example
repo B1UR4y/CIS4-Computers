@@ -1,0 +1,7 @@
+# Parameters of the connection to PostgreSQL.
+# Copy this file to db.properties (next to the place the program is started from)
+# and set your own password there.
+
+db.url=jdbc:postgresql://localhost:5432/computers_db
+db.username=postgres
+db.password=your_password_here
